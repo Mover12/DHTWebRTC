@@ -1,11 +1,13 @@
 {
+  "homepage": "https://mover12.github.io/dhtwebrtc",
   "name": "dhtwebrtc-client",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "webpack serve --open --env port=8080",
-    "build": "webpack"
+    "build": "webpack",
+    "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +16,7 @@
     "html-webpack-plugin": "^5.6.0",
     "webpack": "^5.90.1",
     "webpack-cli": "^5.1.4",
-    "webpack-dev-server": "^4.15.1"
+    "webpack-dev-server": "^4.15.1",
+    "gh-pages": "^6.1.1"
   }
 }
